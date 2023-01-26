@@ -39,7 +39,6 @@ public class Coche {
 	
 	@Override
 	public String toString() {
-		return "Coche [marca=" + marca + ", modelo=" + modelo + ", cilindrada=" + cilindrada + ", potencia=" + potencia
-				+ "]";
+		return "Coche " + marca + " " + modelo + ", " + cilindrada + "cc, " + potencia + "CV";
 	}
 }
